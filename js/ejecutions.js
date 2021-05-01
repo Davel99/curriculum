@@ -13,7 +13,7 @@ window.onload = function () {
         gsap.to(window,{
             scrollTo:position,
             duration:2, 
-            ease: "bounce.out"
+            ease: Power2.easeInOut
         });
 
     });
