@@ -100,10 +100,28 @@
 
 .img-carousel, .carousel-inner{
     max-height: 700px !important;
-    height: 600px;
 }
   
+@media (max-width: 2000px) {
+    
+    .img-carousel, .carousel-inner{
+        height: 600px !important;
+    }
+}
 
+@media (max-width: 1000px) {
+    
+    .img-carousel, .carousel-inner{
+        height: 400px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .img-carousel, .carousel-inner{
+        height: 200px !important;
+    }
+}
 
 /* COMIENZA EDICION DE CERTIFICADOS */
 
