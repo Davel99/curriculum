@@ -38,6 +38,11 @@
     font-size: 20px;
 }
 
+.dashed-white{
+    border-top: 1px solid rgba(250, 250, 250, 0.5);
+    max-width: 90%;
+}
+
 
 /* COMIENZA EDICION DE LA SECCIÓN "ACERCA DE MI" */
 
@@ -94,8 +99,8 @@
 /* COMIENZA EDICION DE EXPERIENCIA */
 
 .img-carousel, .carousel-inner{
-    max-height: 450px !important;
-    height: 450px;
+    max-height: 700px !important;
+    height: 600px;
 }
   
 
